@@ -1,0 +1,1 @@
+este es una pagina de conpras que facilita lo que son la lista de los materiales escolares de los chicos 
