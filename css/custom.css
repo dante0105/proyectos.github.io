@@ -1,0 +1,363 @@
+/*/* ==========================================================================  
+   Tipografía base y estructura general
+   ========================================================================== */
+html {
+    font-size: 62.5%; /* Equivale a 10px para uso con rem */
+}
+
+body {
+    background-color: #f5f3f3;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==========================================================================  
+   Encabezados
+   ========================================================================== */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* ==========================================================================  
+   Encabezado principal
+   ========================================================================== */
+header {
+  position: relative;          /* Para posicionar el logo absoluto */
+  background: linear-gradient(to right, #44066d, #0c1674, #3584a3);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;          /* Centra el texto */
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Logo fijo a la izquierda dentro del header */
+header .logo {
+  position: absolute;
+  left: 20px;                 /* Separación desde la izquierda */
+  top: 50%;                   /* Centrado vertical */
+  transform: translateY(-50%);
+  height: 60px;               /* Tamaño del logo */
+  width: auto;
+  cursor: pointer;
+}
+
+/* Texto centrado en el header */
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Media query para pantallas grandes, opcional si quieres texto alineado a la izquierda */
+@media (min-width: 750px) {
+    header {
+        text-align: center; /* Mantener centrado el texto */
+    }
+}
+
+/* ==========================================================================  
+   Sección principal: Hero
+   ========================================================================== */
+#hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+#encabezado {
+    margin: 3rem 0;
+}
+
+.contenido-hero {
+    margin-top: 8rem;
+    color: #ffffff;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    padding: 0;
+    text-indent: -9999px;
+    background: url(../img/lupa.png) no-repeat right center;
+    border: none;
+}
+
+/* ==========================================================================  
+   Navegación / Barra superior
+   ========================================================================== */
+.barra {
+    padding: 20px 0;
+    background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+}
+
+.barra p {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* ==========================================================================  
+   Iconos destacados
+   ========================================================================== */
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 { background-image: url(../img/icono1.png); }
+.icono2 { background-image: url(../img/icono2.png); }
+.icono3 { background-image: url(../img/icono3.png); }
+
+/* ==========================================================================  
+   Carrito / Submenú
+   ========================================================================== */
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.borrar-curso {
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* ==========================================================================  
+   Listado de cursos
+   ========================================================================== */
+#lista-cursos .row {
+    margin-bottom: 20px;
+}
+
+.agregar-carrito {
+    margin: 10px 0;
+}
+
+/* ==========================================================================  
+   Tarjetas de cursos
+   ========================================================================== */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 10px 20px;
+}
+
+.card h4,
+.info-card p {
+    margin-bottom: 5px;
+}
+
+.info-card .precio {
+    font-size: 1.8rem;
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+/* ==========================================================================  
+   Pie de página
+   ========================================================================== */
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #aaa;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==========================================================================  
+   Listas sin estilo predeterminado
+   ========================================================================== */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.franja-colores {
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to right, #C8A2C8, #0000FF, #87CEEB);
+}
+
+/* ==========================================================================  
+   Estilo de fondo para el pie de página
+   ========================================================================== */
+.footer {
+    margin-top: 40px;
+    padding: 40px 0;
+    background: linear-gradient(to right, #44066d, #0c1674, #3584a3); /* Degradado tipo encabezado */
+    color: white;
+    border-top: none;
+}
+
+.footer .menu a {
+    color: #ffeb3b; /* Enlaces amarillos para contraste */
+    text-decoration: underline;
+}
+
+.footer .menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #ffffff;
+}
+
+/* ==========================================================================  
+   Animaciones y estilos para logo y header
+   ========================================================================== */
+.header-logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* O center */
+    gap: 30px;
+    padding-left: 20px;
+    flex-wrap: nowrap; /* Evita que el logo y texto se separen verticalmente */
+}
+
+.logo-animado {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+    animation: entradaLogo 0.8s ease-out;
+}
+
+.logo-animado:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.titulo-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.titulo-header p {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #eee;
+}
+
+@keyframes entradaLogo {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+/* ==========================================================================  
+   Buscador en sección Hero o principal
+   ========================================================================== */
+#buscador {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 1.6rem;
+    border: 2px solid #3584a3;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#buscador:focus {
+    border-color: #44066d;
+    box-shadow: 0 0 8px rgba(68, 6, 109, 0.7);
+}
+
+.submit-buscador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background: url(../img/lupa.png) no-repeat center center;
+    background-size: 22px 22px;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px; /* Oculta texto si lo hay */
+    transition: background-color 0.3s ease;
+}
+
+.submit-buscador:hover {
+    background-color: rgba(68, 6, 109, 0.1);
+}

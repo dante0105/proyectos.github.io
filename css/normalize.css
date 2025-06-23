@@ -1,0 +1,310 @@
+/* ==========================================================================
+   Base Reset – Estilos Iniciales para una Presentación Consistente
+   ========================================================================== */
+
+/* 1. Definición global de tipografía y ajustes de escalado */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 2. Eliminar margen por defecto del body */
+body {
+  margin: 0;
+}
+
+/* 3. Garantizar estructura semántica moderna */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* 4. Elementos multimedia y enriquecidos */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* 5. Compatibilidad para elementos ocultos */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Tipografía y Semántica
+   ========================================================================== */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: none;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Encabezados
+   ========================================================================== */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* ==========================================================================
+   Contenido Embebido y Multimedia
+   ========================================================================== */
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Agrupación y Separación de Contenido
+   ========================================================================== */
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* ==========================================================================
+   Formularios
+   ========================================================================== */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   Tablas
+   ========================================================================== */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+/* Estilos para el carrito */
+#carrito {
+  background-color: #fff; /* Fondo blanco para hacer el texto más visible */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para que resalte */
+}
+
+#carrito table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#carrito table th,
+#carrito table td {
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #333; /* Aseguramos que el texto sea de color oscuro */
+}
+
+#carrito table th {
+  background-color: #f4f4f4;
+}
+
+#carrito table td {
+  background-color: #fff;
+}
+
+#vaciar-carrito {
+  background-color: #ff4d4d; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+#vaciar-carrito:hover {
+  background-color: #e60000; /* Color de fondo más oscuro cuando se pasa el mouse */
+}
+
+/* Asegurando que el texto del carrito se vea correctamente */
+#lista-carrito th,
+#lista-carrito td {
+  color: #333; /* Aseguramos que el color del texto no sea blanco sobre un fondo blanco */
+}
+
+/* Aseguramos que las imágenes del carrito no se sobrepongan al texto */
+#lista-carrito img {
+  max-width: 100px;
+  height: auto;
+}
+

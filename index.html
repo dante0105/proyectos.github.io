@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ALPHA PAPELERIA</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/skeleton.css" as="style">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="preload" href="css/styles.css" as="style">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+
+    <body>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <img src="img/favicon.ico" alt="Logo Alpha" class="logo-animado">
+                        <h1>LIBRERIA Y PAPELERIA ALPHA</h1>
+
+<!-- Buscador -->
+<div class="row" style="margin-bottom: 20px;">
+  <div class="ten columns">
+    <input type="text" id="buscador" placeholder="Buscar productos..." class="u-full-width" />
+  </div>
+  <div class="two columns">
+    <button id="btn-buscar" type="button" class="button-primary u-full-width">Buscar</button>
+  </div>
+</div>
+
+
+
+                        <p>EL MEJOR MATERIAL A BUEN PRECIO</p>
+                    </div>
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito" alt="carrito">
+                                <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                    <a href="#" id="btn-comprar" class="button-primary u-full-width" style="margin-top:10px;">Comprar</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                            <h2>Papelería y Librería Alpha Todo lo que necesitas en un solo lugar!</h2>
+                            <p>
+En Alpha, nos apasiona acompañarte:
+Descubre útiles escolares, materiales de oficina, agendas, arte y mucho más.
+Compra desde casa y recibe tu pedido de forma rápida y segura.
+¡Tu próximo cuaderno, lápiz o libro favorito te espera aquí!</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="barra">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>variedad de productos de todas las marcas <br>
+                            Explora un mundo de creatividad </p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>conoce los mejores precios  <br>
+                            se hacen envios a toda lapaz bolivia  </p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>facil y rapido   <br>
+                            ademas de contar con el apoyo de faber caster y top</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="lista-cursos" class="container">
+            <h1 id="encabezado" class="encabezado">material de alta calidad</h1>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card" style="height: 100%;">
+                        <img src="img/EcoLapices-de-Colores-2.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>EcoLápices de Colores, Faber-Castell, Hexagonales, Set de 12 Piezas + Tajador</h4>
+                            <p>Punta Max Resistente: Fórmula exclusiva y proceso especial de fabricación TS (Técnica Sekural) que proporciona mayor resistencia a la punta de su lápiz.
+Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye un sacapuntas gratis.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">29 bs <span class="u-pull-right ">25 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-12-EcoLápices_1.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 12 EcoLápices de Colores Faber-Castell + 2 EcoLápices de Grafito y Tajador</h4>
+                            <p>Punta Max Resistente: Fórmula exclusiva y proceso especial de fabricación TS (Técnica Sekural) que proporciona mayor resistencia a la punta de su EcoLápiz.
+Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye un sacapuntas gratis.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">32.5 bs <span class="u-pull-right ">$30.99 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-12-EcoLapices-de-Colores-3.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 12 EcoLápices Hexagonales de Colores Faber-Castell + 3 EcoLápices de Grafito</h4>
+                            <p>Punta Max Resistente: Fórmula exclusiva y proceso especial de fabricación TS (Técnica Sekural) que proporciona mayor resistencia a la punta de su EcoLápiz.
+Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye 3 EcoLápices de Grafit</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">35 bs <span class="u-pull-right ">32.25 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-24-EcoLápices-de-Colores-4.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 24 EcoLápices Hexagonales de Colores Faber-Castell</h4>
+                            <p>Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye un sacapuntas gratis.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">59.40 bs<span class="u-pull-right ">54</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+
+
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-36-EcoLápices-de-Cores-5.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 36 EcoLápices Hexagonales de Colores Faber-Castell</h4>
+                            <p>Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye un sacapuntas gratis.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">86.70 bs<span class="u-pull-right ">78 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-48-EcoLápices-de-Color-6.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 48 EcoLápices Hexagonales de Colores Faber-Castell</h4>
+                            <p>Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Incluye un sacapuntas gratis.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">109 bs <span class="u-pull-right ">99 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-60-EcoLápices-de-Color-6.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 60 EcoLápices Hexagonales de Colores Faber-Castell – Edición Limitad</h4>
+                            <p>Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Estuche exclusivo de cartón para mantener los colores organizados.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">133 bs <span class="u-pull-right ">121 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-72-EcoLapices-de-Colores-7.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 72 EcoLápices Hexagonales de Colores Faber-Castell + Tajador</h4>
+                            <p>Colores más vivos.
+Madera de manejo forestal sostenible y certificado.
+Estuche exclusivo de cartón para mantener los colores organizados.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">165 bs <span class="u-pull-right ">149 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-10-EcoLápices-de-Colores-Metálicos-Faber-Castell--640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 10 EcoLápices Hexagonales de Colores Metálicos Faber-Castell</h4>
+                            <p>Punta Max Resistente: Fórmula exclusiva
+Colores más vivos.
+Madera de manejo forestal sostenible y certificado.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">43 bs<span class="u-pull-right ">43 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+
+
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-12-Lápices-de-Color-Faber-Castell-SuperSoft--640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 12 EcoLápices de Colores Faber-Castell SuperSoft +2 Lápices</h4>
+                            <p>Tecnología exclusiva de mina súper suave, que garantiza el máximo confort al colorear.
+Colores vivos y excelente cobertura sobre papeles claros y oscuros.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$37.80 bs <span class="u-pull-right ">34 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-15-EcoLapices-de-Colores-Faber-Castell-SuperSoft-Calidos-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>EcoLápices de Color Faber-Castell SuperSoft, Set de 15 Colores Cálidos</h4>
+                            <p>Lápices de colores con madera negra, únicos en el mercado.
+Colores vivos y excelente cobertura, pintan sobre papeles claros y oscuros.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">57.80 bs <span class="u-pull-right ">52 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-24-Lápices-de-Color-Faber-Castell-SuperSoft-Color-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 24 EcoLápices de Colores Faber-Castell SuperSoft</h4>
+                            <p>Tecnología exclusiva de mina súper suave, que garantiza el máximo confort al colorear.
+Colores vivos y excelente cobertura sobre papeles claros y oscuros.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">75.50 bs<span class="u-pull-right ">68 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Cuaderno-Tamano-Carta-Espiral-de-Metal-Tapa-Dura-ABC-one-Pastel-con-100-Hojas-Cuadriculadas-5-mm-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cuaderno Tamaño Carta, Espiral de Metal, Tapa Dura, ABC one Pastel, con 100 Hojas Cuadriculadas 5 mm</h4>
+                            <p>Tapa dura
+Anillo metálico color blanco
+Hojas microperforadas para arrancar y 3 orificios
+Hojas cuadriculadas 5 mm
+Tamaño Carta: 215 mm x 280 mm
+Gramaje: 56 g/m²
+Número de hojas: 100</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">37.80 bs <span class="u-pull-right ">30 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="15">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Cuaderno-de-Musica-Pentagramado-Carta-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cuaderno de Música Pentagramado Tamaño Carta, Engrapado, Tapa Blanda, TOP, con 8 Hojas – Vertical</h4>
+                            <p>8 hojas pentagramadas en posición vertical
+Bloc engrapado
+Tamaño Carta (21.6 x 27.9 cm)
+Hecho en Bolivia</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">20.80 bs <span class="u-pull-right ">17.90 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="16">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Cuaderno-Tamano-Carta-Espiral-Plastico-Tapa-Dura-American-Iris-con-100-Hojas-Cuadriculadas-5-mm-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cuaderno Tamaño Carta, Espiral de Plástico, Tapa Dura, American Iris, con 100 Hojas Cuadriculadas 5 mm</h4>
+                            <p>Material de la tapa: cartón prensado
+Anillo de plástico transparente
+Forrado externa e internamente.
+Forro externo: láminas termolaminadas con polipropileno.
+Forro interno: papel mate.
+100 hojas de papel bond de 56 g/m²</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">22.50 bs<span class="u-pull-right ">20 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="17">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Perforadora-Metalica-de-2-Orificios-para-16-Hojas-DL-Office-DL0851-Colores-Pastel-640x640.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Perforadora metalica de 2 orificios </h4>
+                            <p>Perforadora de 2 orificios estándar
+Con bandeja de desechos, fácil de quitar para limpiar
+Cuerpo metálico
+Base de goma antideslizante
+Capacidad de perforado de 16 hojas de 75 gramos</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">28.50 bs <span class="u-pull-right ">25 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="18">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Tijera-15-cm-Multiusos-para-Oficina-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Tijera Multiusos de 15 cm (5 1/2″), Pequeña, con Agarre Cómodo</h4>
+                            <p>Tijeras para el hogar, ideales para cortar tejidos, papel, cartulina, cartón, cintas, fotos, cupones, abrir cajas y embalaje.
+Sorprendente para costura, sastrería, acolchado, costura, patrones de corte, corte de acolchado, vinilo, cuero</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">7.50bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="19">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Calculadora-de-8-Digitos-CASIO-MX-8B-Vista.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Calculadora de 8 Dígitos CASIO MX-8B</h4>
+                            <p>Tipo de mini-escritorio
+8 dígitos
+Porcentaje regular: Cálculos de porcentaje regular.
+Solar + Pila: Energía solar cuando hay suficiente luz , por pila cuando la luz es insuficiente.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">75.50 bs<span class="u-pull-right ">68 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="20">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-50-Lápices-de-Color-Faber-Castell-SuperSoft-Color-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Set 50 EcoLápices de Colores Faber-Castell SuperSoft</h4>
+                            <p>Tecnología exclusiva de mina súper suave, que garantiza el máximo confort al colorear.
+Colores vivos y excelente cobertura sobre papeles claros y oscuros.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">158.80 bs <span class="u-pull-right ">142 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="21">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/EcoLapices-de-Colores-Faber-Castell-SuperSoft-Set-de-72-Piezas-con-Estuche-de-Tela-Empaque-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>EcoLápices de Colores Faber-Castell SuperSoft, Set de 72 Piezas, con Estuche Enrollable de Tela</h4>
+                            <p>Lápices de colores con madera negra, únicos en el mercado.
+Colores vivos y excelente cobertura, pintan sobre papeles claros y oscuros.
+Tecnología exclusiva de mina súper suave, que garantiza el máximo confort al colorear</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">402 bs <span class="u-pull-right ">362 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="22">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-100-EcoLapices-de-Colores-Faber-Castell-SuperSoft-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>EcoLápices de Colores Faber-Castell SuperSoft, Caja de 100 Piezas</h4>
+                            <p>Tecnología exclusiva de mina súper suave, que garantiza el máximo confort al colorear.
+Colores vivos y excelente cobertura sobre papeles claros y oscuros.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">381 bs<span class="u-pull-right ">343 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="23">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-de-6-Marcadores-Punta-Pincel-Faber-Castell-SuperSoft-Pastel-1-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Punta Pincel Faber-Castell SuperSoft, Caja de 6 Colores Pastel</h4>
+                            <p>6 plumones delgados circulares en colores pasteles
+Cuenta con una punta pincel flexible que ayuda a pintar con mayor suavidad</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$37.80 bs <span class="u-pull-right ">36 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="24">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-de-10-Marcadores-Punta-Pincel-Faber-Castell-SuperSoft-1-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Punta Pincel Faber-Castell SuperSoft, Caja de 10 Colores</h4>
+                            <p>10 plumones delgados circulares en colores básicos
+Cuenta con una punta pincel flexible que ayuda a pintar con mayor suavidad
+Tinta lavable a base de agua</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">31 bs<span class="u-pull-right ">37.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="25">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Marcadores-Punta-Pincel-Faber-Castell-SuperSoft-Caja-de-20-Colores-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Punta Pincel Faber-Castell SuperSoft, Caja de 20 Colores</h4>
+                            <p>Los rotuladores Faber-Castell de la línea SuperSoft cuentan con una punta de pincel supersuave, que ayuda a pintar con mayor suavidad, perfecta para técnicas de lettering y dibujos artísticos.
+Diseño atrevido y moderno.
+Para bocetar, dibujar escribir y pintar sobre papel, cartón, etc.
+</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">79.50 bs<span class="u-pull-right ">71.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="26">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+       
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Paquete-500-Hojas-de-Carpeta-de-3-Orificios-con-Cuadricula-5-mm-LIDER-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Paquete 500 Hojas de Carpeta de 3 Orificios con Cuadrícula 5 mm LIDER</h4>
+                            <p>500 Hojas de carpeta
+Cuadrícula corriente 5 mm
+Cuadrícula color gris
+Margen color rojo
+3 Perforaciones estándar
+Tamaño Carpeta (21.6 x 19 cm</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$37.80 bs <span class="u-pull-right ">34 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="27">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Paquete-500-Hojas-de-Carpeta-de-3-Orificios-con-Cuadricula-5-mm-LIDER-Multicolor-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Paquete 500 Hojas de Carpeta de 3 Orificios con Cuadrícula 5 mm LIDER – Multicolor</h4>
+                            <p>500 Hojas de carpeta
+Cuadrícula corriente 5 mm
+Cuadrícula y margen color rojo, azul, amarillo, verde y violeta.
+3 Perforaciones estándar
+Tamaño Carpeta (21.6 x 19 cm)</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">57.80 bs <span class="u-pull-right ">52 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="28">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Paquete-200-Hojas-Trapper-Multicolor-de-3-Perforaciones-con-Cuadricula-5-mm-Tamano-Carta-TOP-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Paquete 200 Hojas Trapper de 3 Perforaciones con Cuadrícula 5 mm Tamaño Carta TOP – Gris</h4>
+                            <p>200 Hojas Trapper
+Cuadrícula corriente 5 mm
+Cuadrícula gris
+3 Perforaciones estándar
+Tamaño Carta (21.6 x 27.9 cm)</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">45.50 bs<span class="u-pull-right ">40.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="29">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-12-Marcadores-Fiesta-Faber-Castell-con-Estuche-Rígido--640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Escolares Faber-Castell Fiesta, Lavables, Punta Fina, con Estuche Rígido de Plástico, Set de 12 Colores</h4>
+                            <p>Colores intensos y brillantes.
+Tinta lavable, no tóxica, a base de agua y colorantes alimentarios.
+Estuche rígido durable para mantener los marcadores organizados.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$31.80 bs <span class="u-pull-right ">$28.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="30">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-24-Marcadores-Fiesta-Faber-Castell-con-Estuche-Rigido--640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Escolares Faber-Castell Fiesta, Lavables, Punta Fina, con Estuche Rígido de Plástico, Set de 24 Colores</h4>
+                            <p>Marcador Fiesta con nuevo diseño y espacio para el nombre.
+Punta delgada, ancho de trazo aprox. 0.7 mm.
+Para bocetar, pintar o escribir sobre papel, madera, cartón,etc.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">55 bs <span class="u-pull-right ">49 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="31">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Set-36-Marcadores-Fiesta-Faber-Castell-con-Estuche-Rigido--640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Marcadores Escolares Faber-Castell Fiesta, Lavables, Punta Fina, con Estuche Rígido de Plástico, Set de 36 Colores</h4>
+                            <p>Para bocetar, pintar o escribir sobre papel, madera, cartón,etc.
+Colores intensos y brillantes.
+Tinta lavable, no tóxica, a base de agua y colorantes alimentarios.
+Estuche rígido durable para mantener los marcadores organizados.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">82.20 bs<span class="u-pull-right ">74 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="32">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+        
+
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Boligrafo-Faber-Castell-Lux-034-Medium-Azul-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bolígrafo Faber-Castell Lux 034 Medium Azul</h4>
+                            <p>Experiencia superior al escribir.
+Cuerpo cilíndrico delgado con tapa y botón del color de la tinta.
+Capuchón con clip
+Ancho de línea: Medium
+Diámetro de la bola: 1.0 mm</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.80 bs <span class="u-pull-right ">1.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="33">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Boligrafo-Punta-Fina-0.7-mm-NATARAJ-621-Azul-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bolígrafo Punta Fina 0.7 mm, NATARAJ 621</h4>
+                            <p>Zona de agarre triangular ergonómica
+Tinta anti-decoloración de alta calidad
+Bolígrafo de flujo suave para una escritura continua
+Capuchón fácil de quitar con clip
+Punta fina de 0.7 mm
+Hecho en India</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">2.20 bs <span class="u-pull-right ">2 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="34">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Bolígrafo-Faber-Castell-Trilux-032-Medium-Azul-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bolígrafo Faber-Castell Trilux 032 Medium </h4>
+                            <p>Sensación de escritura agradable
+Diseño triangular ergonómico
+Cuerpo transparente
+Tapa de seguridad con ventilación
+Capuchón con clip
+Ancho de línea: Medium
+Diámetro de la bola: 1,0 mm</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">2.50 bs<span class="u-pull-right ">2 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="35">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+        
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Goma-de-Borrar-Miga-de-Pan-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Borrador Miga de Pan</h4>
+                            <p>Goma suave de caucho sintético tipo “miga de pan”.
+Para borrar una amplia gama de lápices de grafito sobre toda clase de papeles.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.80 bs <span class="u-pull-right ">1.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="36">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Lapiz-Infinito-Eterno-Magico-con-Borrador-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Lápiz Infinito, Eterno, Mágico, con Borrador</h4>
+                        <p>Escribe sin necesidad de tajar o usar tinta: gracias a su punta especial, hecha de una aleación de metal única. El contacto entre la punta y el papel altera la superficie de escritura, pero no el lápiz.
+Borrable, reutilizable y duradero: el color es similar al de los lápices de madera, escribe suavemente y es fácil de borrar. Con un diseño fácil de desenroscar y cambiar. Tiene un borrador incorporado.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">10.50 bs <span class="u-pull-right ">7.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="37">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Borradores-con-Protector-Faber-Castell-Pastel-Colores-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Borrador con Protector Faber-Castell FC Max Pastel</h4>
+                            <p>El popular Borrador FC Max de Faber Castell, ahora en tonos pastel.
+Su formulación de alta calidad proporciona un excelente rendimiento al borrar.
+El caucho FC Max es sintético y exento de PVC.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">4.50 bs<span class="u-pull-right ">4 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="38">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+        
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Tajador-de-1-Orificio-con-Deposito-Artesco-M-557-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Tajador de 1 Orificio con Depósito Artesco M-557</h4>
+                            <p>Para un tajado cómodo y limpio
+Sacapuntas compacto de un orificio, ideal para estuches.
+Amplio depósito translúcido.
+Hoja de metal resistente para un uso duradero.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.80 bs <span class="u-pull-right ">1.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="39">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Tajador-1-Orificio-Maped-Vivo-Celeste-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Tajador de 1 Orificio Maped Vivo</h4>
+                            <p>Sacapuntas compacto de un agujero, ideal para estuches.
+Forma ergonómica para un uso cómodo.
+Hoja de metal resistente para un uso duradero.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">2.20 bs <span class="u-pull-right ">2 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="40">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Tajador-de-1-Orificio-con-Deposito-con-Forma-de-Patita-de-Gatito-Kawaii-TWINGO-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Tajador de 1 Orificio, con Depósito, con Forma de Patita de Gatito, Kawaii, TWINGO</h4>
+                            <p>Materiales de calidad: el sacapuntas con forma de patita de gato está hecho de plástico resistente pero liviano, y la hoja interior de metal, lo que te ayudará a afilar tus lápices rápidamente sin dañarlos, ahorrando tiempo y esfuerzo.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">12.50 bs<span class="u-pull-right ">9bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="41">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+
+        
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Paquete-500-Hojas-de-Papel-Bond-Blanco-75-g-CHAMEX-Tamano-Carta-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Paquete 500 Hojas de Papel Bond Blanco 75 g/m² CHAMEX Tamaño Carta</h4>
+                            <p>500 hojas para impresión y para que puedas despertar tu creatividad.
+Gramaje: 75 g/m²
+Formato: Carta (216 x 279 mm)</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$62.80 bs <span class="u-pull-right ">61.50 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="42">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Paquete-500-Hojas-de-Papel-Bond-Blanco-75-g-m²-BRIO-Tamano-Carta-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Papel Bond Blanco, Tamaño Carta, BRIO, 75 g/m², Paquete de 500 Hoja</h4>
+                            <p>500 hojas con máximo desempeño para su impresión.
+Ideal para fotocopias, impresoras laser, offset y fax.
+Hecho en Brasil
+Gramaje: 75 g/m²
+Formato: Carta (216 x 279 mm)</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">62.20 bs <span class="u-pull-right ">58 bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="43">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Bloc-Papel-Bond-Rayado-con-80-Hojas-Tamano-Carta-TOP-Nuevo-640x640.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bloc Papel Bond Rayado con 80 Hojas Tamaño Carta TOP</h4>
+                            <p>Bloc de papel bond rayado
+Espaciado entre líneas de 9mm
+Tamaño Carta (21.6 x 27.9 cm)
+Contratapa de cartón prensado
+Contiene 80 hojas
+El modelo es aleatorio y no se puede elegir, se recibirá una unidad del producto.</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">32.50 bs<span class="u-pull-right ">29bs</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="44">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav id="principal" class="menu">
+                            <a class="enlace" href="#">lo mejor para tu negocio</a>
+                            <P>Horario de atención en tienda:
+Lunes a Sábado: 14:00 a 19:00
+Domingos y Feriados: Cerrado</P>
+                            <a class="enlace" href="#">LIBRERIA ALPHA BOLIVIA S.R.L.  
+NIT: 595963024</a>
+                            <a class="enlace" href="#">Aplicaciones Móviles</a>
+                            <a class="enlace" href="#">Visita la tienda</a>
+                            <p>Av. M.I. Belzu Nº S-0734 entre J. Armando Méndez y A. Honorato Salazar - Zona Las Cuadras EL ALTO </p>
+                            <a class="enlace" href="#"></a>
+                        </nav>
+                    </div>
+                    <div class="four columns">
+                        <nav id="secundaria" class="menu">
+                            <a class="enlace" href="#">¿Quienes Somos?</a>
+                            <P>SOMOS UNA TIENDA DE VENTAS POR MAYOR Y MENOR</P>
+                            <a class="enlace" href="#">Dueño: DANTE ARRIAGA</a>
+                            <P>CEL :61173900</P>
+                            <a class="enlace" href="#">Gerente: Elias yujra </a>
+                            <P>CEL :60651605</P>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/app.js"></script>
+
+
+
+    </body>
+
+</html>
